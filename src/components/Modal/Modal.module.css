@@ -1,0 +1,62 @@
+.closeBtn {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 36px;
+  width: 38px;
+  align-self: flex-end;
+  margin-bottom: 24px;
+}
+.confirmBtn {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+.closeBtn:hover,
+.confirmBtn:hover {
+  background-color: grey;
+}
+.modalWrapper {
+  position: fixed;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.modalBody {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  width: calc(100vw - 64px);
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.confirmBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px 24px 24px;
+  margin-top: -32px;
+}
+
+.warningText {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}

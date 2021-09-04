@@ -1,0 +1,18 @@
+.navmenuwrapper {
+  margin-right: 90px;
+}
+.navmenuwrapper div {
+  line-height: 24px;
+  font-size: 19px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  max-width: 120px;
+  padding: 8px 8px;
+  border-radius: 8px;
+}
+.navmenuwrapper div:hover {
+  background-color: grey;
+}
+.navmenuwrapper .active {
+  background-color: grey;
+}

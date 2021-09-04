@@ -1,0 +1,69 @@
+.itemWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  border: 1px solid grey;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+.nameText {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.itemActions img {
+  cursor: pointer;
+  margin-right: 24px;
+}
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
+}
+.control {
+  margin: 0px 8px 16px 0px;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.control input {
+  display: block;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+}
+
+.control input:focus,
+.control textarea:focus {
+  outline: none;
+  border-color: #230052;
+}
+.headerText {
+  position: absolute;
+  top: 24px;
+  color: black;
+  font-size: 24px;
+}
+.saveBtn {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+.saveBtn:hover {
+  background-color: grey;
+}

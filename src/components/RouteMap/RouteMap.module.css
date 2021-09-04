@@ -1,0 +1,40 @@
+.mapModalWrapper {
+  position: fixed;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mapModalBody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+}
+.mapWrapper {
+  width: 400px;
+  height: 300px;
+}
+.mapCloseBtn {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 36px;
+  width: 38px;
+  align-self: flex-end;
+  margin-bottom: 24px;
+}
+.mapCloseBtn:hover {
+  background-color: grey;
+}
